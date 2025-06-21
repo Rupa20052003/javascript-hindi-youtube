@@ -28,3 +28,41 @@ let  state;
 console.log(typeof (6));
 console.log(typeof undefined); //o/p=undefined
 console.log(typeof null); //Object
+
+
+// primitive
+
+// 7 types:String , Number ,Boolean , null , undefined
+// ,symbol ,bigint
+
+
+const score =100;
+const scoreValue=100.4;
+
+const isLoggedIn=false;
+const outsideTemp=null;
+let userEmail;
+
+const id =Symbol('123');
+const anotherId=Symbol('123');
+
+console.log(id===anotherId);
+
+const bigNumber =87675643n
+
+// Reference type (Non Primitive)
+
+// Array ,Objects ,functions
+
+const heros=["shaktiman","nagraj" ,"doga"];
+let myObj={
+    name:"rupali",
+    age:20,
+}
+
+const myFunction =function(){
+    console.log("Hello World");
+}
+
+console.log(typeof(bigNumber));
+
